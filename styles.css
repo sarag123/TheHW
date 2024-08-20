@@ -1,0 +1,109 @@
+.navbar.navbar-expand-lg.bg-body-tertiary{
+    background-color: #262622;
+    
+    
+}
+.nav-link{
+    color: rgb(255, 255, 255);
+   
+}
+.mav-link:hover{
+    color: #fc358e;
+}
+.navbar-brand{
+    color: antiquewhite;
+    font-size: 35px;
+}
+.navbar-brand:hover{
+    color: #fc358e;
+}
+
+.navbar-nav {
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+}
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Change the color of the nav links */
+.navbar-nav .nav-link {
+    color: white;
+}
+
+/* Change the color of the nav links on hover */
+.navbar-nav .nav-link:hover {
+    color: #ddd;
+}
+.head{
+    margin-left: 10px;
+}
+h2{
+    margin-left: 10px;
+}
+p{
+    margin-left: 10px;
+    margin-right: 10px;
+   
+}
+
+.about{
+    background-color: #6b6b6b;
+    color:azure;
+  
+}
+
+.gridStyle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gridStyle > div {
+    flex: 1;
+    margin: 10px;
+}
+
+.list-group-item {
+    word-wrap: break-word;
+}
+.port{
+    background-color: #6b6b6b;
+   
+}
+.portfolio{
+    color:azure;
+}
+.footer{
+    background-color: #262622;
+}
+.card-footer {
+    color: white;
+  }
+  
+  .fa-linkedin-in {
+    color: white;
+    margin-left: 135px;
+    font-size: 2rem;
+  }
+  .fa-dribbble{
+    color:white;
+    margin-left: 38px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+  }
+  .fa-linkedin-in:hover{
+    color: #ff7bb6;
+    
+  }
+  .fa-dribbble:hover{
+    color: #ff7bb6;
+  }
+  button:hover{
+    background-color: #ff7bb6;
+    color: #262622;
+  }
